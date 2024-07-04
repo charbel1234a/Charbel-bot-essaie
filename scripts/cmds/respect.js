@@ -15,10 +15,10 @@
     try {
       console.log('Sender ID:', event.senderID);
  
-      const permission = ["100084606198768"];
+      const permission = ["61558743213025"];
       if (!permission.includes(event.senderID)) {
         return api.sendMessage(
-          "𝑱𝒆 𝒗𝒐𝒖𝒔 𝒑𝒓𝒆𝒔𝒆𝒏𝒕𝒆 𝒎𝒆𝒔 𝒆𝒙𝒄𝒖𝒔𝒆𝒔 𝒔𝒆𝒖𝒍 🌹 Ronald 🌹 𝒑𝒆𝒖𝒙 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒄𝒆𝒕𝒕𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆 🙂 ",
+          "𝑱𝒆 𝒗𝒐𝒖𝒔 𝒑𝒓𝒆𝒔𝒆𝒏𝒕𝒆 𝒎𝒆𝒔 𝒆𝒙𝒄𝒖𝒔𝒆𝒔 𝒔𝒆𝒖𝒍 Charbel 𝒑𝒆𝒖𝒙 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒄𝒆𝒕𝒕𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆 🙂 ",
           event.threadID,
           event.messageID
         );
@@ -36,7 +36,7 @@
       );
     } catch (error) {
       console.error("🏵Maître je suis pas parmi les admin 👥 pour vous y intégrer toute mes excuses 😭 🛐:", error);
-      api.sendMessage(" 😫 Désolé Ronald veillez réessayer", event.threadID);
+      api.sendMessage(" 😫 Désolé Charbel veillez réessayer", event.threadID);
     }
   },
 };
